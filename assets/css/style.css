@@ -294,11 +294,14 @@ hr {
 .single-services img{
   border-radius:20px;
 }
-.vision_col:hover, .mission_col:hover{
-  border-radius:20px;
+.single-services img:hover{
+  transition:0.5s;
+  border-radius:0;
+}
+.vision_col:hover, .mission_col:hover, .support-location-img img:hover{
   transition:0.5s;
   transform:translateY(-20px);
-  border-radius:0;
+  border-radius:0 !important;
  }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-padding {
@@ -1463,6 +1466,7 @@ hr {
 }
 .support-company-area .support-location-img img {
     width: 100%;
+    border-radius: 20px;
 }
 .support-company-area .right-caption {
     position: relative;
@@ -1649,7 +1653,7 @@ hr {
 }
 .footer-wrapper {
     position: relative;
-    background: #301a22;
+    background: #01481E;
 }
 .footer-wrapper .footer-area .footer-pera p {
     color: #fff;
@@ -1660,7 +1664,7 @@ hr {
 .footer-wrapper .footer-area .footer-tittle h4 {
     color: #fff;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 700;
 }
 .footer-wrapper .footer-area .footer-tittle ul li {
