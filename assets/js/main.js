@@ -264,9 +264,6 @@
             0:{
                 items:1
             },
-            420:{
-                items:1
-            },
             576:{
                 items:2,
                 margin:30
@@ -274,18 +271,35 @@
             768:{
                 items:3
             },
-            1024:{
-                items:3
-            },
             1200:{
                 items:4
           },
-          1440:{
-            items:4
+        }
+  });
+
+    $('#partners').owlCarousel({
+    loop:true,
+    dots:false,
+    nav:false,
+    autoplay:true,
+    autoplaySpeed:5000,
+    slideTransition:'linear',
+    responsive:{
+            0:{
+                items:2
+            },
+            420:{
+                items:3
+            },
+
+             576:{
+                items:5
+            },
+  
+  
+            1200:{
+                items:7
           },
-          2560:{
-            items:4
-          }
         }
   });
 

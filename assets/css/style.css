@@ -309,6 +309,9 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#partners img{
+  width:150px;
+}
 .single-services img{
   border-radius:20px;
 }
