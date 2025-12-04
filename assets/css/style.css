@@ -339,11 +339,17 @@ hr {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+    .board_member {
+	      width: 35vh;
+    }
 }
 @media (max-width: 575px) {
     .section-padding {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+    .board_member {
+	      width: 35vh;
     }
 }
 .footer-padding {
