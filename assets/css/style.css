@@ -341,9 +341,9 @@ hr {
     }
 }
 
-@media only screen  and (max-width: 767px) and (max-height: 576px){
+@media only screen  and (max-width: 1000px) and (max-height: 576px){
     .board_member {
-	      width: 35vw;
+	      width: 27vw;
     }
 }
 @media (max-width: 575px) {
