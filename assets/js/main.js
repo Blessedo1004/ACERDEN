@@ -253,6 +253,42 @@
     $('#bar6').barfiller();
 
 
+    
+ 
+    // Owl Initialization
+    $('#board').owlCarousel({
+    loop:true,
+    dots:false,
+    autoplay:true,
+    responsive:{
+            0:{
+                items:1
+            },
+            420:{
+                items:1
+            },
+            576:{
+                items:2,
+                margin:30
+            },
+            768:{
+                items:3
+            },
+            1024:{
+                items:3
+            },
+            1200:{
+                items:4
+          },
+          1440:{
+            items:4
+          },
+          2560:{
+            items:4
+          }
+        }
+  });
+
 
 
 })(jQuery);
