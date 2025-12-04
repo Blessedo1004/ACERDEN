@@ -291,11 +291,12 @@ hr {
 	display: block;
 }
 #board .owl-prev, #board .owl-next {
-	background:#06b04dff;
+  background:#01481E;
   border-radius:50%;
   width:33px;
   font-weight:bolder;
   font-size:25px;
+  color:white;
 }
 .board_name{
   background:#01481E;
