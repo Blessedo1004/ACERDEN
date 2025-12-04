@@ -279,7 +279,7 @@
     responsive:{
             0:{items:2},
             420:{items:3},
-            576:{items:5},
+            576:{items:4},
             1200:{items:7},
         }
   });
