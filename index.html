@@ -11,6 +11,7 @@
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -416,10 +417,38 @@
         <!-- About the founder ends -->
 
         <!-- Board of directors starts -->
-         <div class="container-fluid section-padding">
+         <div class="container section-padding">
             <div class="row">
                 <div class="section-tittle">
                     <h2 class="text-center">Board Of Directors</h2>
+                    <div class="owl-carousel owl-theme" id="board">
+                        <div class="col-8 board_member mx-auto d-block">
+                            <img src="assets/img/board/ugwu-thumb.jpg" alt="img">
+                            <h6 class="col-12 text-center text-light py-3 board_name">Prof. Daniel .S. Ugwu</h6>
+                        </div>
+
+                        <div class="col-8 board_member mx-auto d-block">
+                            <img src="assets/img/board/henrietta.jpg" alt="img">
+                            <h6 class="col-12 text-center text-light py-3 board_name">Mrs Henrietta .C. Ugwu</h6>
+                        </div>
+
+                        
+                        <div class="col-8 board_member mx-auto d-block">
+                            <img src="assets/img/board/patrick-eya.jpg" alt="img">
+                            <h6 class="col-12 text-center text-light py-3 board_name">Prof. Patrick .E. Eya</h6>
+                        </div>
+
+                       <div class="col-8 board_member mx-auto d-block">
+                            <img src="assets/img/board/priscilla.jpg" alt="img">
+                            <h6 class="col-12 text-center text-light py-3 board_name">Prof. Priscilla .N. Ezema</h6>
+                        </div>
+
+                       <div class="col-8 board_member mx-auto d-block">
+                            <img src="assets/img/board/chianu.jpg" alt="img">
+                            <h6 class="col-12 text-center text-light py-3 board_name">Dr. Jonas Chianu</h6>
+                        </div>
+                    </div>
+        
                 </div>
             </div>
          </div>
@@ -465,9 +494,8 @@
                                 <div class="single-footer-caption mb-20">
                                     <!-- logo -->
                                     <div class="footer-logo mb-35">
-                                        <div class="logo d-flex justify-content-center align-items-center py-3">
+                                        <div class="logo d-flex justify-content-center py-3">
                                             <a href="index.html"><img src="assets/img/logo/logo-news.png" alt=""></a>
-                                            <h4 class="col-5 col-md-7 ms-3 text-light">African Centre for Rural Development & Environment (ACERDEN)</h4>
                                         </div>
                                     </div>
                                     <div class="footer-tittle">
@@ -574,6 +602,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <!-- Slick-slider , Owl-Carousel ,slick-nav -->
+<script src="assets/js/jquery.min.js"></script> 
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/jquery.slicknav.min.js"></script>
@@ -606,6 +635,41 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-23581568-13');
+    // Owl Initialization
+     $(document).ready(function(){
+    $('#board').owlCarousel({
+    loop:true,
+    dots:false,
+    autoplay:true,
+    responsive:{
+            0:{
+                items:1
+            },
+            420:{
+                items:1
+            },
+            576:{
+                items:2,
+                margin:30
+            },
+            768:{
+                items:3
+            },
+            1024:{
+                items:3
+            },
+            1200:{
+                items:4
+          },
+          1440:{
+            items:4
+          },
+          2560:{
+            items:4
+          }
+        }
+  });
+});
 </script>
 </body>
 </html>

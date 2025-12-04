@@ -283,6 +283,23 @@ hr {
   background:#1A7236;
   border-radius:20px;
 }
+.board_member {
+	width: 33vh;
+	border-radius: 20px;
+}
+#board .owl-nav {
+	display: block;
+}
+#board .owl-prev, #board .owl-next {
+	background:#06b04dff;
+  border-radius:50%;
+  width:30px;
+  font-weight:bolder;
+  font-size:25px;
+}
+.board_name{
+  background:#01481E;
+}
 .parallax{
    background-image: url(../img/gallery/pic-6.jpg);
   width:100%;
@@ -308,6 +325,9 @@ hr {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .board_member {
+	      width: 30vh;
+    }    
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-padding {
@@ -409,6 +429,10 @@ hr {
     .section-tittle h2 {
         font-size: 41px;
     }
+
+     .board_member {
+	      width: 35vh;
+    } 
    
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
