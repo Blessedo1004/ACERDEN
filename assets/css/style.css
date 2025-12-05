@@ -282,8 +282,25 @@ hr {
   background:#06b04dff;
   border-radius:20px;
 }
+.last_col{
+  background:#adc370;
+  border-radius:20px;
+}
 .gallery{
   background: #01481E;
+}
+.gallery .single-services{
+    border-radius:20px 20px 0 0;
+    min-height:50vh;
+}
+
+.our-services .single-services{
+    border-radius:20px 20px 0 0;
+    min-height:65vh;
+}
+
+.gallery .single-services img, .our-services .single-services img{
+    border-radius:20px 20px 0 0;
 }
 .gallery h5:hover{
  color:#06b04dff;
@@ -335,14 +352,12 @@ hr {
     top:0;
     right:0;
 }
-.single-services img{
-  border-radius:20px;
-}
+
 .single-services img:hover{
   transition:0.5s;
   border-radius:0;
 }
-.vision_col:hover, .mission_col:hover, .support-location-img img:hover{
+.vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover{
   transition:0.5s;
   transform:translateY(-20px);
   border-radius:0 !important;
@@ -366,6 +381,10 @@ hr {
 @media only screen  and (max-width: 1000px) and (max-height: 576px){
     .board_member {
 	      width: 27vw;
+    }
+
+    .gallery .single-services, .our-services .single-services{
+        min-height:50vw;
     }
 }
 @media (max-width: 575px) {
@@ -450,18 +469,25 @@ hr {
     line-height: 1.4;
     margin-bottom: 22px;
 }
-@media only screen and (min-width: 768px){
-   .vision_col, .mission_col{
-      margin-top:-50px !important;
-      z-index:1;
-    }
-}
+
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .section-tittle h2 {
         font-size: 40px;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .vision_col, .mission_col, .last_col {
+      margin-top:-50px !important;
+      z-index:1;
+    }
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .vision_col, .mission_col, .last_col {
+      margin-top:-50px !important;
+      z-index:1;
+    }
     .section-tittle h2 {
         font-size: 41px;
     }
@@ -882,9 +908,14 @@ hr {
     color: #c30047;
     background: none;
 }
-.main-header .logo {
+/* .main-header .logo {
     float: left;
+} */
+
+.logo{
+    width:80px;
 }
+
 .main-header ul > li:hover > ul.submenu {
     visibility: visible;
     opacity: 1;
@@ -1412,9 +1443,7 @@ hr {
     z-index: 0;
     background-color: #ecf5f0ff;
 }
-.our-services .single-services {
-    background-color: ;
-}
+
 .our-services .single-services .services-icon img {
     text-align: center;
     margin-bottom: 35px;
