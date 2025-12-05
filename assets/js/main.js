@@ -260,6 +260,7 @@
     loop:true,
     dots:false,
     autoplay:true,
+    slideTransition:'linear',
     responsive:{
             0:{items:1},
             576:{items:2,margin:30},
