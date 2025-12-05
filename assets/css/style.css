@@ -285,6 +285,9 @@ hr {
 .gallery{
   background: #01481E;
 }
+.gallery h5:hover{
+ color:#06b04dff;
+}
 .board_member {
 	width: 35vh;
 	border-radius: 20px;
