@@ -282,6 +282,9 @@ hr {
   background:#06b04dff;
   border-radius:20px;
 }
+.gallery{
+  background: #01481E;
+}
 .board_member {
 	width: 35vh;
 	border-radius: 20px;
