@@ -577,6 +577,12 @@ hr {
 .about-btn {
     padding: 30px 40px;
 }
+
+.donate-btn {
+    padding: 30px 40px !important;
+    background:#06b04dff;
+}
+
 .header-btn {
     color: #fff;
     font-family: "Lora", serif;
