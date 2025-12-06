@@ -275,7 +275,7 @@
     dots:false,
     nav:false,
     autoplay:true,
-    autoplaySpeed:5000,
+    autoplaySpeed:3000,
     slideTransition:'linear',
     responsive:{
             0:{items:2},
