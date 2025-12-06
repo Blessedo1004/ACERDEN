@@ -485,10 +485,6 @@ hr {
       margin-top:-50px !important;
       z-index:1;
     }
-
-    .donate-btn {
-        padding: 25px 50px !important;
-    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -587,7 +583,7 @@ hr {
 }
 
 .donate-btn {
-    padding: 20px 40px;
+    padding: 20px 40px !important;
     background:#06b04dff;
 }
 
