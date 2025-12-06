@@ -286,7 +286,6 @@
   });
 
     $('#gallery').owlCarousel({
-    items:3,  
     loop:true,
     margin:20,
     dots:true,
