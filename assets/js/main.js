@@ -285,6 +285,19 @@
         }
   });
 
-
+    $('#gallery').owlCarousel({
+    items:3,  
+    loop:true,
+    margin:20,
+    dots:true,
+    nav:true,
+    center:true,
+    autoplay:true,
+    slideTransition:'linear',
+    responsive:{
+        0:{items:1},
+        992:{items:3},
+    }
+  });
 
 })(jQuery);

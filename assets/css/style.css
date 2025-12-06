@@ -309,10 +309,10 @@ hr {
 	width: 35vh;
 	border-radius: 20px;
 }
-#board .owl-nav {
+#board .owl-nav,#gallery .owl-nav {
 	display: block;
 }
-#board .owl-prev, #board .owl-next {
+#board .owl-prev, #board .owl-next, #gallery .owl-prev, #gallery .owl-next{
   background:#01481E;
   border-radius:50%;
   width:33px;
@@ -320,18 +320,22 @@ hr {
   font-size:25px;
   color:white;
 }
-#board .owl-prev{
+#board .owl-prev, #gallery .owl-prev{
     position:absolute;
     top:50%;
     transform:translateY(-50%);
     left:0;
 }
 
-#board .owl-next{
+#board .owl-next, #gallery .owl-next{
     position:absolute;
     top:50%;
     transform:translateY(-50%);
     right:0;
+}
+
+#gallery .owl-dots{
+    display:block;
 }
 .board_name{
   background:#01481E;
