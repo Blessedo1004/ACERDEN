@@ -916,12 +916,13 @@ hr {
     position: unset;
 }
 .main-header .main-menu ul ul.submenu > li > a:hover {
-    color: #c30047;
+    color: #06b04dff;
     background: none;
 }
-/* .main-header .logo {
-    float: left;
-} */
+
+.aims-objectives li{
+    list-style-type: decimal;
+}
 
 .logo{
     width:80px;
