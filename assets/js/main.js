@@ -306,5 +306,6 @@ window.addEventListener('load', function () {
   setTimeout( () => {
       const preloader = document.querySelector('.preloader_container');
       preloader.style.display = 'none';
+      document.body.style.overflow = 'visible';
   }, 1500);
 })
