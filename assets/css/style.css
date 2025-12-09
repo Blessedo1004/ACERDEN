@@ -285,7 +285,9 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
+    position:fixed;
 }
+
 
 .preloader_img{
     animation: zoom 2s linear infinite forwards;
