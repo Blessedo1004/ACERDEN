@@ -1,12 +1,3 @@
-//preloader
-
-window.addEventListener('load', function () {
-  setTimeout( () => {
-      const preloader = document.querySelector('.preloader_container');
-      preloader.style.display = 'none';
-  }, 1500);
-})
-
 (function ($)
   { "use strict"
   
@@ -309,3 +300,11 @@ window.addEventListener('load', function () {
   });
 
 })(jQuery);
+
+//preloader
+window.addEventListener('load', function () {
+  setTimeout( () => {
+      const preloader = document.querySelector('.preloader_container');
+      preloader.style.display = 'none';
+  }, 1500);
+})
