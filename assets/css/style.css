@@ -280,7 +280,7 @@ hr {
     justify-content: center;
     height: 100vh;
     align-items: center;
-    z-index: 2;
+    z-index: 100000;
     top: 0;
     left: 0;
     right: 0;
