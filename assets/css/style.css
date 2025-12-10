@@ -4,6 +4,10 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
+    overflow: hidden;
+}
+div[id="implementation"], div[id="networks"]{
+    scroll-margin-top:50vh;
 }
 h1,
 h2,
@@ -288,9 +292,6 @@ hr {
     position:fixed;
 }
 
-body{
-    overflow: hidden;
-}
 
 .preloader_img{
     animation: zoom 2s linear infinite forwards;
@@ -316,8 +317,15 @@ body{
   background:#adc370;
   border-radius:20px;
 }
-.gallery{
+.gallery_container{
   background: #01481E;
+  opacity: 0.9;
+}
+.gallery{
+  background-image: url(../img/gallery/bg_2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .gallery .single-services{
     border-radius:20px 20px 0 0;
@@ -371,12 +379,12 @@ body{
 .board_name{
   background:#01481E;
 }
-.parallax{
+/* .parallax{
    background-image: url(../img/gallery/pic-6.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 #partners img{
   width:150px;
 }
@@ -387,7 +395,9 @@ body{
     top:0;
     right:0;
 }
-
+.founder_img{
+    margin-top: -70px;
+}
 .single-services img:hover{
   transition:0.5s;
   border-radius:0;
@@ -880,6 +890,7 @@ body{
     position: relative;
     z-index: 1;
     margin: 0px 14px;
+    cursor: pointer;
 }
 .main-header .main-menu ul > li:last-child {
     margin: 0;
@@ -904,12 +915,17 @@ body{
     text-transform: capitalize;
     position: relative;
 }
+.nav_text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-header .main-menu ul > li a {
         font-size: 18px;
     }
 }
-.main-header .main-menu ul > li:hover > a {
+.main-header .main-menu ul > li:hover > a, .nav_text:hover {
     color: #06b04dff;
 }
 .main-header .main-menu ul ul.submenu {
