@@ -920,6 +920,9 @@ hr {
     font-weight: 500;
     font-size: 16px;
 }
+.ugwu:hover, .eya:hover{
+    color:#06b04dff !important;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-header .main-menu ul > li a {
         font-size: 18px;
