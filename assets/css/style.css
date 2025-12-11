@@ -379,12 +379,7 @@ hr {
 .board_name{
   background:#01481E;
 }
-/* .parallax{
-   background-image: url(../img/gallery/pic-6.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+
 #partners img{
   width:150px;
 }
@@ -1528,8 +1523,14 @@ hr {
     line-height: 1.6;
 }
 
-.our-services .single-services:hover h5 a {
+.our-services .single-services:hover h5 a,  .projects .single-services:hover h5 a{
     color: #06b04dff;
+}
+.projects{
+    background-color:#ecf5f0ff;
+}
+.projects .single-services , .projects img{
+    border-radius:10px 10px 0 0;
 }
 .count-down-area .count-down-wrapper {
     background-repeat: no-repeat;
