@@ -323,9 +323,8 @@ hr {
 }
 @keyframes bgBounce {
   0%,100% { background-position: center bottom; }
-  60% { background-position: center -2%; }
+ 50% { background-position: center calc(100% - 60px);}
 }
-
 .gallery{
   background-image: url(../img/gallery/bg_2.jpg);
   background-attachment: fixed;
