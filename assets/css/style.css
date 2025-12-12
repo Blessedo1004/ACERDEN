@@ -321,11 +321,17 @@ hr {
   background: #01481E;
   opacity: 0.9;
 }
+@keyframes bgBounce {
+  0%,100% { background-position: center bottom; }
+  60% { background-position: center -2%; }
+}
+
 .gallery{
   background-image: url(../img/gallery/bg_2.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: bgBounce 5s linear infinite forwards;
 }
 .gallery .single-services{
     border-radius:20px 20px 0 0;
@@ -393,9 +399,14 @@ hr {
 .founder_img{
     margin-top: -70px;
 }
+.focus_img{
+     perspective: 200px;
+     overflow:hidden;
+}
 .single-services img:hover{
   transition:0.5s;
   border-radius:0;
+  transform: translateZ(50px);
 }
 .vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover{
   transition:0.5s;
@@ -1504,7 +1515,7 @@ hr {
     text-align: center;
     margin-bottom: 35px;
 }
-.our-services .single-services .services-cap h5 a {
+.our-services .single-services .services-cap h5 {
     font-weight: 700;
     font-size: 26px;
     color: #301a22;
