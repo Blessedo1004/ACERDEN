@@ -520,6 +520,12 @@ hr {
     margin-bottom: 22px;
 }
 
+@media only screen and (min-width: 1200px){
+    @keyframes bgBounce {
+    0%,100% { background-position: bottom bottom; }
+     50% { background-position: center calc(100% - 5px);}
+    }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .section-tittle h2 {
         font-size: 40px;
