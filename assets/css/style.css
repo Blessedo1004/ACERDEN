@@ -317,6 +317,7 @@ hr {
   background:#adc370;
   border-radius:20px;
 }
+
 .gallery_container{
   background: #01481E;
   opacity: 0.9;
@@ -398,6 +399,9 @@ hr {
 .founder_img{
     margin-top: -70px;
 }
+.photo_gallery img{
+    height: 50vh;
+}
 .focus_img{
      perspective: 200px;
      overflow:hidden;
@@ -436,6 +440,10 @@ hr {
     .gallery .single-services, .our-services .single-services{
         min-height:50vw;
     }
+
+    .photo_gallery img{
+    height: 50vw;
+}
 }
 @media (max-width: 575px) {
     .section-padding {
@@ -1542,7 +1550,7 @@ hr {
 .our-services .single-services:hover h5 a,  .projects .single-services:hover h5 a{
     color: #06b04dff;
 }
-.projects{
+.projects, .photo_gallery{
     background-color:#ecf5f0ff;
 }
 .projects .single-services , .projects img{
