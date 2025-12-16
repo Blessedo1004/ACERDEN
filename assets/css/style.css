@@ -305,9 +305,18 @@ hr {
         transform: scale(1);
     }
 }
+td{
+    border: 1px solid black;
+}
+.igbo-eze-1{
+    overflow-x: hidden !important;
+}
 .mission_col{
   background:#23b187;
   border-radius:20px;
+}
+.list li{
+    list-style: square;
 }
 .vision_col{
   background:#06b04dff;
@@ -1051,21 +1060,7 @@ hr {
 .header-btn:hover {
     color: #f2f2f2 !important;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-btn:hover {
-        background: #c30047 !important;
-    }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .header-btn:hover {
-        background: #c30047 !important;
-    }
-}
-@media (max-width: 575px) {
-    .header-btn:hover {
-        background: #c30047 !important;
-    }
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-right-btn {
         float: left;
