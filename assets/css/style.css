@@ -392,9 +392,18 @@ hr {
 .news_date{
     background-color: rgba(0,0,0,0.5);
     width:50px;
-    float:right;
     top:0;
     right:0;
+    z-index: 2;
+    border-top-right-radius: 10px;
+}
+
+.news_title{
+    background-color: rgba(0,0,0,0.5);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
 }
 .founder_img{
     margin-top: -70px;
@@ -1551,8 +1560,11 @@ hr {
 .our-services .single-services:hover h5 a,  .projects .single-services:hover h5 a{
     color: #06b04dff;
 }
-.projects, .photo_gallery{
+.projects, .photo_gallery,.news{
     background-color:#ecf5f0ff;
+}
+.boston h3,h6{
+    line-height: 40px;
 }
 .projects .single-services , .projects img{
     border-radius:10px 10px 0 0;
