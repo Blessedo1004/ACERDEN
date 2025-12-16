@@ -421,6 +421,9 @@ td{
     border-radius:10px 10px 0 0;
     height: 40vh;
 }
+.news img{
+    border-radius:10px 10px 0 0;
+}
 .focus_img{
      perspective: 200px;
      overflow:hidden;
