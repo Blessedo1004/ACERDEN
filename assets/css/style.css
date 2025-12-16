@@ -424,6 +424,7 @@ td{
 .news img{
     border-radius:10px 10px 0 0;
 }
+
 .focus_img{
      perspective: 200px;
      overflow:hidden;
@@ -433,7 +434,7 @@ td{
   border-radius:0;
   transform: translateZ(50px);
 }
-.vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover{
+.vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover, .news .single-services:hover{
   transition:0.5s;
   transform:translateY(-20px);
   border-radius:0 !important;
