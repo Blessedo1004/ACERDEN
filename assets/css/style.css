@@ -327,7 +327,7 @@ td{
 
 .gallery_container{
   background: #01481E;
-  opacity: 0.9;
+  opacity: 0.96;
 }
 @keyframes bgBounce {
   0%,100% { background-position: center bottom; }
@@ -342,7 +342,7 @@ td{
 }
 .gallery .single-services{
     border-radius:20px 20px 0 0;
-    min-height:50vh;
+    height:auto;
 }
 
 .our-services .single-services{
@@ -405,16 +405,7 @@ td{
     border-top-right-radius: 10px;
 }
 
-.news_title{
-    background-color: rgba(0,0,0,0.5);
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    z-index: 2;
-}
-.founder_img{
-    margin-top: -70px;
-}
+
 .photo_gallery img{
     border-radius:10px 10px 0 0;
     height: 40vh;
@@ -432,7 +423,7 @@ td{
   border-radius:0;
   transform: translateZ(50px);
 }
-.vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover, .news .single-services:hover{
+.vision_col:hover, .mission_col:hover,.last_col:hover, .support-location-img img:hover{
   transition:0.5s;
   transform:translateY(-20px);
   border-radius:0 !important;
@@ -516,6 +507,12 @@ td{
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .section-tittle p br {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .founder_img{
+        margin-bottom: -20% !important;
     }
 }
 @media (max-width: 575px) {
