@@ -309,3 +309,13 @@ window.addEventListener('load', function () {
       document.body.style.overflow = 'visible';
   }, 1500);
 })
+
+//Amount Selection
+    const amount = document.querySelectorAll('.amount').forEach(amt=>{  
+        if(amt){
+            amt.addEventListener('click', ()=>{
+                const {amount} = amt.dataset;
+                document.querySelector('.final_amount').value = amount
+            })
+        }
+    });

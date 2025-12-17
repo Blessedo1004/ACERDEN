@@ -794,6 +794,7 @@ td{
     outline: 0;
     box-shadow: none;
 }
+
 .boxed-btn {
     background: #fff;
     display: inline-block;
@@ -2669,6 +2670,22 @@ td{
 .contact-section {
     padding: 130px 0 100px;
 }
+.form_row{
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.20);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.amount{
+    cursor:pointer; 
+}
+
 @media (max-width: 991px) {
     .contact-section {
         padding: 70px 0 40px;
