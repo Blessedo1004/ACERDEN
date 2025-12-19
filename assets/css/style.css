@@ -820,6 +820,10 @@ td{
 .boxed-btn2 {
     padding: 4px 20px !important;
 }
+.final_amount{
+    padding: 21px 44px;
+    font-size: larger;
+}
 .loan-btn {
     padding: 28px 36px;
 }
@@ -2670,8 +2674,12 @@ td{
 .contact-section {
     padding: 130px 0 100px;
 }
-.form_row{
+.form_row, .contact_info{
     box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.20);
+}
+.map-inner{
+    position: relative;
+    width: 100%;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
