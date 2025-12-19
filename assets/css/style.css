@@ -329,6 +329,57 @@ td{
   background: #01481E;
   opacity: 0.96;
 }
+/* Team Section General Styling */
+.team-section {
+    background-color: #f9f9f9;
+}
+
+.team-heading {
+    color: #004d40;
+    font-weight: 700;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.team-member img {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin: 0 auto 15px auto; /* Centers the image block */
+    display: block;
+    border: 3px solid #16d365;
+}
+
+/* Text Styling */
+.team-member .name {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member .position {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0;
+}
 @keyframes bgBounce {
   0%,100% { background-position: center bottom; }
  50% { background-position: center calc(100% - 60px);}
